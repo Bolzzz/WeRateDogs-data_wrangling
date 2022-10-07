@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Data Analysis Report: @dog_rates (WeRateDogs)</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Data Analysis Report: @dog_rates (WeRateDogs)</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+After carrying out the wrangling steps on the data gathered for @dog_rates, we were tasked with sharing some insights and visualizations.
+</section>
+<section data-field="body" class="e-content">
+<section name="beee" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="abc4" id="abc4" class="graf graf--h3 graf--leading graf--title">Data Analysis Report: @dog_rates (WeRateDogs)</h3><p name="874f" id="874f" class="graf graf--p graf-after--h3">After carrying out the wrangling steps on the data gathered for <a href="https://twitter.com/dog_rates" data-href="https://twitter.com/dog_rates" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">@dog_rates</a>, we were tasked with sharing some insights and visualizations.</p><p name="836b" id="836b" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Question 1</strong>: What stage of dogs is the most prominent?</p><p name="76c1" id="76c1" class="graf graf--p graf-after--p">This was geared towards finding the most common age at which a dog is showcased on the account. <strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">It is important to note that of the 2356 dog tweets; we could only figure out, and carry out our analysis on, the stage of 321 dogs.</em></strong></p><figure name="3117" id="3117" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*PJut8kISlOpTAz7L7bboSg.png" data-width="810" data-height="226" src="https://cdn-images-1.medium.com/max/800/1*PJut8kISlOpTAz7L7bboSg.png"><figcaption class="imageCaption">a summary of the different dog stages</figcaption></figure><figure name="8338" id="8338" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="1*-GbUUxQAHXIPpJoYmFHoFA.png" data-width="548" data-height="798" src="https://cdn-images-1.medium.com/max/800/1*-GbUUxQAHXIPpJoYmFHoFA.png"><figcaption class="imageCaption">We can tell that primarily puppers were pictured and tweeted about, at approximately 66%</figcaption></figure><p name="e9f9" id="e9f9" class="graf graf--p graf-after--figure"><strong class="markup--strong markup--p-strong">Question 2</strong>: What’s the most recurring rating given to the dogs?</p><p name="6054" id="6054" class="graf graf--p graf-after--p">Does the account handler rate randomly, or are they very intentional about the ratings of the featured dogs?</p><p name="85cc" id="85cc" class="graf graf--p graf-after--p">Well, we can tell by running a summary statistic on the rating column:</p><figure name="b025" id="b025" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*IFzPlY0M8PFnSIXCoJFHBw.png" data-width="762" data-height="398" src="https://cdn-images-1.medium.com/max/800/1*IFzPlY0M8PFnSIXCoJFHBw.png"><figcaption class="imageCaption">This shows us that, bar an outlier rating of 177.6, the others were very closely spread; with the 25th, 50th and 75th percentile being 0.1 apart.</figcaption></figure><figure name="72ef" id="72ef" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="1*3_TBVWTL1v71LiOA3irHgQ.png" data-width="552" data-height="678" src="https://cdn-images-1.medium.com/max/800/1*3_TBVWTL1v71LiOA3irHgQ.png"></figure><p name="6d87" id="6d87" class="graf graf--p graf-after--figure"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">A few things to note:</em></strong></p><ul class="postList"><li name="ea7e" id="ea7e" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">Dogs without images were dropped</em></strong></li><li name="4a26" id="4a26" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">Rows within the text column that contained retweets were also dropped</em></strong></li><li name="0f79" id="0f79" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">The rating column was generated by dividing the rating numerator by the rating denominator to get a floating figure (which, if you did not know, really means that it is a continuous figure)</em></strong></li></ul><p name="c5d4" id="c5d4" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Question 3</strong>: From what device/access point are the tweets by @We Rate Dogs mostly published?</p><p name="96c1" id="96c1" class="graf graf--p graf-after--p">The source column was analyzed to find out the most means by which WeRateDogs posted their tweets.</p><figure name="00d8" id="00d8" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*ZOPZoogHUsWtaPajLG0Nlw.jpeg" data-width="332" data-height="100" src="https://cdn-images-1.medium.com/max/800/1*ZOPZoogHUsWtaPajLG0Nlw.jpeg"><figcaption class="imageCaption">value_counts before the rows without dog images were dropped</figcaption></figure><figure name="4d9d" id="4d9d" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="1*55-vprt6zPVJQMJjbNl0uA.png" data-width="852" data-height="236" src="https://cdn-images-1.medium.com/max/800/1*55-vprt6zPVJQMJjbNl0uA.png"><figcaption class="imageCaption">value_counts after the rows without dog images/with RTs were dropped</figcaption></figure><p name="6e9f" id="6e9f" class="graf graf--p graf-after--figure">At both points, i.e., before some entries were dropped and after, we see that the Twitter app for iPhone was mostly used in posting (94% and 98% respectively)</p><figure name="1abe" id="1abe" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*67AUT0zxJ5OpFcRxEyyejw.png" data-width="610" data-height="402" src="https://cdn-images-1.medium.com/max/800/1*67AUT0zxJ5OpFcRxEyyejw.png"><figcaption class="imageCaption">a pie chart showing the proportion of the sources of the tweets</figcaption></figure><p name="7bc3" id="7bc3" class="graf graf--p graf--empty graf-after--figure graf--trailing"><br></p></div></div></section>
+</section>
+<footer><p><a href="https://medium.com/p/44efae794c78">View original.</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 5, 2022.</p></footer></article></body></html>
